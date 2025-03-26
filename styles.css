@@ -1,0 +1,17 @@
+body{
+    position: relative;
+}
+
+.img_container_2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 700px;
+    height: 700px;
+}
+
+.img_container_2 img:last-child{
+    margin-left: 50%;
+}
