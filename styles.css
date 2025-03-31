@@ -6,12 +6,21 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 15%;
-    width: 700px;
-    height: 700px;
 }
 
-.img_container_2 img:last-child{
-    margin-left: 50%;
+.img_container_2 article > img{
+    position: relative;
 }
+
+aside img{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#card_logo{
+    position: absolute;
+    top: 0;
+}
+
