@@ -42,20 +42,24 @@
       </figure>
         
       <form action="">
-        <article>
-          <label for="">
+        <article id="name_n_card_number">
+          <label for=""> cardholder name</label>
             <input type="text" placeholder="e.g. Jane Appleseed">
-          </label>
-          <label for="">
+          <label for="">Card Number </label>
             <input type="number" placeholder="e.g. 1234 5678 9123 0000">
-          </label>
         </article>
         <article class="form_info">
-          <input type="text">
-          <input type="number">
-          <input type="text">
-          <button>Confirm</button>
+          <aside>
+            <label for="">Exp. Date (MM/YY)</label>
+            <input type="text">
+            <input type="number">
+          </aside>
+          <aside id="expiry_date">
+            <label for="">cvc</label>
+            <input type="text">
+          </aside>
         </article>
+        <button>Confirm</button>
       </form>
   </main>
 

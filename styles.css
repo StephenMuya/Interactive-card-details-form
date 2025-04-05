@@ -76,13 +76,37 @@ form{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 70%;
-    width: 500px;
-    top: 40%;
-    border: 5px solid black;
+    left: 60%;
+    top: 30%;
     width: auto;
 }
 
+form article {
+    display: flex;
+    flex-direction: column;
+}
 
+form article > input{
+    margin-top: 10px;
+}
+
+.form_info{
+    display: flex;
+    flex-direction: row;
+}
+
+.form_info input{
+    margin-right: 2px;
+}
+
+.form_info aside{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    margin-top: 20px;
+}
 
 
